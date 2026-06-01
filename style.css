@@ -1,0 +1,16 @@
+
+body{font-family:Arial,sans-serif;margin:0;background:#f7f7f7;color:#222;line-height:1.6}
+header{background:#0f2340;color:#fff;padding:18px 5%}
+nav a{color:#fff;margin-right:18px;text-decoration:none;font-weight:bold}
+.hero{background:url('assets/hero-house.jpeg') center/cover no-repeat;height:60vh;display:flex;align-items:center;justify-content:center;position:relative}
+.hero::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,.45)}
+.hero-content{position:relative;color:#fff;text-align:center;padding:20px}
+.btn{display:inline-block;background:#c69c43;color:#fff;padding:12px 20px;border-radius:6px;text-decoration:none;margin:6px}
+.container{max-width:1100px;margin:auto;padding:40px 5%}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.08)}
+footer{background:#0f2340;color:#fff;text-align:center;padding:25px}
+blockquote{font-style:italic;border-left:4px solid #c69c43;padding-left:16px}
+img.project{width:100%;border-radius:8px}
+form input,form textarea{width:100%;padding:10px;margin:8px 0}
+button{background:#c69c43;color:#fff;border:none;padding:12px 18px}
