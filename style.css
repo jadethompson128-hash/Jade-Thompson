@@ -2,7 +2,9 @@
 body{font-family:Arial,sans-serif;margin:0;background:#f7f7f7;color:#222;line-height:1.6}
 header{background:#0f2340;color:#fff;padding:18px 5%}
 nav a{color:#fff;margin-right:18px;text-decoration:none;font-weight:bold}
-.hero{background:url('assets/hero-house.jpeg') center/cover no-repeat;height:60vh;display:flex;align-items:center;justify-content:center;position:relative}
+.hero{
+    background:url('hero-house.jpeg') center/cover;
+}
 .hero::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,.45)}
 .hero-content{position:relative;color:#fff;text-align:center;padding:20px}
 .btn{display:inline-block;background:#c69c43;color:#fff;padding:12px 20px;border-radius:6px;text-decoration:none;margin:6px}
